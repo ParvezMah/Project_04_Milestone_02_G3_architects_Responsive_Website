@@ -1,6 +1,71 @@
 /* Work Sans font from google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
+
+/* MISSING POINTS */
+
+/* ROOT FONT SIZE -  16PX */
+/* HEADER MARGIN OR PADDING  */
+
+
+
+
+/* COMMON SHARED STYLES */
+
 *{
     font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+/* Header Section Styles */
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_title{
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+nav li a{
+    color: #424242;
+    text-decoration: none;
+}
+
+
+/*  Banner Styles */
+.banner_content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0px auto;
+}
+.banner_title{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
 }
