@@ -147,6 +147,9 @@ main{
     display: flex;
     gap: 100px;
 }
+.feature_content{
+    /* border:5px solid blue; */
+}
 .features .features_description{
     margin-top: 20px;
 }
@@ -167,20 +170,23 @@ main{
 .feature_content .card p{
     padding: 10px 0px;
 }
-.features .section_title{
-    height: 106px;
+
+
+.title_one{
     border-left: 5px solid #FF900E;
     padding-left: 21px;
+    font-size: 2.8rem;
 }
+
 .ten_years_badge{
-    position: relative;
+    /* position: relative; */
     width: 342px;
     border-radius: 8px;
     background: #FF900E;
     padding: 45px;
     text-align: center;
     color: #fff;
-    bottom: 100px;
+    /* bottom: 100px; */
 }
 .ten_years_badge h1{
     font-size: 4rem;
